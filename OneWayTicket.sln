@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayTicket.UI", "OneWayTicket.UI\OneWayTicket.UI.csproj", "{EF73A62C-18D2-482F-929C-32FB5F61815A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayTicket.BLL", "OneWayTicket.BLL\OneWayTicket.BLL.csproj", "{1B003624-6CB5-4951-B483-53203B5E17DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayTicket.DAL", "OneWayTicket.DAL\OneWayTicket.DAL.csproj", "{D7970D16-B722-47ED-8356-E0D5F9919330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EF73A62C-18D2-482F-929C-32FB5F61815A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF73A62C-18D2-482F-929C-32FB5F61815A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF73A62C-18D2-482F-929C-32FB5F61815A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B003624-6CB5-4951-B483-53203B5E17DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B003624-6CB5-4951-B483-53203B5E17DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B003624-6CB5-4951-B483-53203B5E17DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B003624-6CB5-4951-B483-53203B5E17DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7970D16-B722-47ED-8356-E0D5F9919330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7970D16-B722-47ED-8356-E0D5F9919330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7970D16-B722-47ED-8356-E0D5F9919330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7970D16-B722-47ED-8356-E0D5F9919330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
