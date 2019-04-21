@@ -39,6 +39,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,11 +49,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Duraklar.cs">
+      <DependentUpon>SeferiModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GuzergahDuraklari.cs">
+      <DependentUpon>SeferiModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Guzergahlar.cs">
+      <DependentUpon>SeferiModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rezervasyonlar.cs">
+      <DependentUpon>SeferiModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SeferiModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeferiModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SeferiModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeferiModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SeferiModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeferiModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Seferler.cs">
+      <DependentUpon>SeferiModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <EntityDeploy Include="SeferiModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SeferiModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="SeferiModel.edmx.diagram">
+      <DependentUpon>SeferiModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SeferiModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SeferiModel.edmx</DependentUpon>
+      <LastGenOutput>SeferiModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="SeferiModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SeferiModel.edmx</DependentUpon>
+      <LastGenOutput>SeferiModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
