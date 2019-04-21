@@ -77,6 +77,7 @@
             this.btn_Ara.TabIndex = 2;
             this.btn_Ara.Text = "ARA";
             this.btn_Ara.UseVisualStyleBackColor = true;
+            this.btn_Ara.Click += new System.EventHandler(this.btn_Ara_Click);
             // 
             // Main_Form
             // 
@@ -89,9 +90,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Main_Form";
-            this.Text = "One Way Ticket";
+            this.Text = "One Way Ticket - Duraklar";
+            this.Load += new System.EventHandler(this.Main_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

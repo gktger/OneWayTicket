@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace OneWayTicket.UI
 {
-    public partial class Main_Form : Form
+    public partial class YolcuBilgiFormu_Form : Form
     {
-        public Main_Form()
+        public YolcuBilgiFormu_Form()
         {
             InitializeComponent();
+        }
+
+        private void btn_Kaydet_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
