@@ -7,13 +7,16 @@ using System.Threading.Tasks;
 
 namespace OneWayTicket.BLL
 {
-   public static class SeferlerBLL
+    public static class SeferlerBLL
     {
-      public static  SeferiEntities dataContext = new SeferiEntities();
+        public static SeferiEntities dataContext = new SeferiEntities();
 
         public static List<Seferler> GetSeferlers()
         {
             return dataContext.Seferlers.ToList();
         }
+
+       
+
     }
 }

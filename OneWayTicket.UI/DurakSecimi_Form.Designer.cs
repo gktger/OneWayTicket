@@ -60,6 +60,7 @@
             this.cmb_Nereden.Name = "cmb_Nereden";
             this.cmb_Nereden.Size = new System.Drawing.Size(121, 33);
             this.cmb_Nereden.TabIndex = 1;
+            this.cmb_Nereden.TextChanged += new System.EventHandler(this.cmb_Nereden_TextChanged);
             // 
             // cmb_Nereye
             // 
