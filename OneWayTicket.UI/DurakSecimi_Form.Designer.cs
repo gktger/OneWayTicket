@@ -40,7 +40,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(26, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 25);
+            this.label1.Size = new System.Drawing.Size(96, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "NEREDEN :";
             // 
@@ -49,25 +49,27 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(311, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 25);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "NEREYE :";
             // 
             // cmb_Nereden
             // 
+            this.cmb_Nereden.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_Nereden.FormattingEnabled = true;
             this.cmb_Nereden.Location = new System.Drawing.Point(149, 29);
             this.cmb_Nereden.Name = "cmb_Nereden";
-            this.cmb_Nereden.Size = new System.Drawing.Size(121, 33);
+            this.cmb_Nereden.Size = new System.Drawing.Size(121, 28);
             this.cmb_Nereden.TabIndex = 1;
             this.cmb_Nereden.TextChanged += new System.EventHandler(this.cmb_Nereden_TextChanged);
             // 
             // cmb_Nereye
             // 
+            this.cmb_Nereye.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_Nereye.FormattingEnabled = true;
             this.cmb_Nereye.Location = new System.Drawing.Point(419, 29);
             this.cmb_Nereye.Name = "cmb_Nereye";
-            this.cmb_Nereye.Size = new System.Drawing.Size(121, 33);
+            this.cmb_Nereye.Size = new System.Drawing.Size(121, 28);
             this.cmb_Nereye.TabIndex = 1;
             // 
             // btn_Ara
@@ -82,7 +84,7 @@
             // 
             // Main_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 137);
             this.Controls.Add(this.btn_Ara);

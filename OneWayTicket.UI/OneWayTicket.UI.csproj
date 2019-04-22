@@ -112,6 +112,10 @@
       <Project>{d7970d16-b722-47ed-8356-e0d5f9919330}</Project>
       <Name>OneWayTicket.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OneWayTicket.DTO\OneWayTicket.DTO.csproj">
+      <Project>{9797cf70-6824-455f-b86a-ada20387bc12}</Project>
+      <Name>OneWayTicket.DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
